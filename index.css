@@ -1,0 +1,11 @@
+.form-group {
+    margin-bottom: 10px; /* Reduce el espacio entre los campos */
+  }
+  
+  input.form-control, textarea.form-control {
+    height: 40px; /* Ajusta la altura de los campos */
+  }
+  
+  .btn-primary {
+    padding: 5px 10px; /* Ajusta el tamaño del botón */
+  }
