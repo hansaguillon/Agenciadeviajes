@@ -7,17 +7,12 @@
     
     /* Estilos para el footer */
     footer {
-        background-color: #333;
-        color: rgb(203, 247, 214);
-        padding: 20px;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        margin-left: 3rem; 
-        margin-right: 3rem; 
+      text-align: center;
+      padding: 3px;
+      background-color: DarkSalmon;
+      color: white;
       }
+
       footer a {
         color: white;
       }
