@@ -7,14 +7,16 @@
     
     /* Estilos para el footer */
     footer {
-      text-align: center;
-      padding: 3px;
-      background-color: DarkSalmon;
-      color: white;
-      }
-
+      background-color: #333; /* Fondo oscuro */
+      color: white; /* Texto en blanco */
+      padding: 20px 0; /* Espaciado interno */
+    }
+    footer p {
+      margin-bottom: 5px; /* Espaciado entre párrafos */
+    }
     footer a {
-      color: white;
-      }
+      color: white; /* Enlaces en blanco */
+      margin-right: 10px; /* Espaciado entre enlaces */
+    }
 
  
