@@ -8,7 +8,7 @@
     /* Estilos para el footer */
     footer {
         background-color: #333;
-        color: white;
+        color: rgb(203, 247, 214);
         padding: 20px;
         position: fixed;
         bottom: 0;
@@ -16,7 +16,7 @@
         display: flex;
         justify-content: space-between;
         margin-left: 3rem; 
-      margin-right: 3rem; 
+        margin-right: 3rem; 
       }
       footer a {
         color: white;
