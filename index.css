@@ -14,7 +14,9 @@
         bottom: 0;
         width: 100%;
         display: flex;
-        justify-content: space-between; /* Distribuir los elementos a los extremos */
+        justify-content: space-between;
+        margin-left: 3rem; 
+      margin-right: 3rem; 
       }
       footer a {
         color: white;
