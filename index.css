@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .presentacion{
     margin: 20px;
 }
@@ -44,3 +45,16 @@
     text-align:right;
     margin-top: 15px;
 }
+=======
+.form-group {
+    margin-bottom: 10px; 
+  }
+  
+  input.form-control, textarea.form-control {
+    height: 40px;
+  }
+  
+  .btn-primary {
+    padding: 5px 10px; 
+  }
+>>>>>>> hans
