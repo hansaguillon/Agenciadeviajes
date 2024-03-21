@@ -23,12 +23,14 @@ body {
 
 .footer-row {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .footer-links {
   width: 25%;
   padding: 0 15px; 
+  text-align: center;
 }
 
 .footer-links h4 {
@@ -81,4 +83,7 @@ background-color: #00C3FF;
         width: 100%;
         margin-bottom: 30px;
       }
+}
+.footer-title {
+  text-align: center;
 }
