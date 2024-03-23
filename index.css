@@ -11,20 +11,25 @@
 }
 .comentarios {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     border: solid black 1px;
     padding: 10px;
     margin: 20px;
 }
 
+.box-comentarios{
+    display: flex;
+    flex-direction: row;
+}
 
 .comentario{ 
     display: flex;
     flex-direction: column;
+    text-align: center;
     border: solid red 1px;
-    padding: 65px;
+    padding: 55px;
     margin: 5px;
-    padding-bottom: 0px;
+    
 }
 .foto{
      display: flex;
@@ -38,12 +43,11 @@
 
 }
 .p-coment{
-    margin-top: 20px;
     text-align: center;
 }
 .nombre-perfil{
     text-align:right;
-    margin-top: 15px;
+    
 }
 
 .form-group {
