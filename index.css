@@ -1,25 +1,44 @@
 
-.presentacion{
-    margin: 20px;
+
+.container-presentacion{
+    font-size: large;
+    padding: 12px;
+    padding-top: 80px;
+    
+
 }
 .titulo{
-    margin-top: 100px;
+    padding: 30px;
     text-align: center;
+    
+}
+li{
+    padding: 3px;
+    
+}
+#list-presentacion{
+    
+    padding:0px;
 }
 .container-coments{
     margin: 20px;
+}
+h4{
+    padding-top:50px;
+    padding-bottom: 10px;
 }
 .comentarios {
     display: flex;
     flex-direction: column;
     border: solid black 1px;
-    padding: 10px;
-    margin: 20px;
+    padding: 50px;
+    margin-top: 80px;
 }
 
 .box-comentarios{
     display: flex;
     flex-direction: row;
+
 }
 
 .comentario{ 
@@ -48,6 +67,10 @@
 .nombre-perfil{
     text-align:right;
     
+}
+.row{
+    margin-top: 100px;
+    padding-top: 80px;
 }
 
 .form-group {

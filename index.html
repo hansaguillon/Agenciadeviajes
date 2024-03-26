@@ -9,42 +9,44 @@
       <title>Document</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" >
-        <div class="container-fluid">
-           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand d-lg-none d-xl-block
-           d-xl-none d-xxl-block
-            .d-xxl-none" href="#presentacion" > <img src="./images/logo-agencia.png" alt="logo agencia" height="60"> </a>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto ">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#seccion2">¿Quienes somos?</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="#seccion4">Comentarios</a>
-              </li>
-              
-            </ul> 
-          <a class="navbar-brand d-none d-sm-block
-              d-sm-none d-md-block
-            d-md-none d-lg-block" href="#presentacion"> <img src="./images/logo-agencia.png" alt="logo agencia" height="60">
-          </a>
-         
-            <ul class="navbar-nav ms-auto">
-               <li class="nav-item"><a class="nav-link active" aria-curren
-              t="page" href="">Paquetes</a></li>
-              <li class="nav-item"><a class="nav-link active" aria-curren
-                t="page" href="">Contacto</a></li>
-             
-            </ul>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" >
+    <div class="container-fluid">
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand d-lg-none d-xl-block
+       d-xl-none d-xxl-block
+        .d-xxl-none" href="#inicio" > <img src="./images/logo-agencia.png" alt="logo agencia" height="60"> </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto ">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#presentacion">¿Quienes somos?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#comentarios">Comentarios</a>
+          </li>
           
-          </div>
+        </ul> 
+        <a class="navbar-brand d-none d-sm-block
+        d-sm-none d-md-block
+       d-md-none d-lg-block" href="#inicio"> <img src="./images/logo-agencia.png" alt="logo agencia" height="60">
+     </a>
+     
+        <ul class="navbar-nav ms-auto">
+           <li class="nav-item"><a class="nav-link" aria-curren
+          t="page" href="#carouselExampleControls">Paquetes</a></li>
+          <li class="nav-item"><a class="nav-link" aria-curren
+            t="page" href="#footer">Contacto</a></li>
+         
+        </ul>
+      
+      </div>
 
-      </nav>
+  </nav>
+         
+            
              
-      <section class="container">
+      <section id="inicio" class="container">
         <div class="row">
           <div class="col-md-9 d-flex align-items-center">
             <img src="./img/2.jpg" class="img-fluid h-100" alt="Imagen descriptiva">
@@ -76,20 +78,31 @@
         </div>
       </section>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Carrusel Simple con Bootstrap</title>
-  <!-- archivos CSS de Bootstrap -->
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-</head>
 <body>
-    <section id="presentacion" class="container presentacion">
+    <section id="presentacion" class="container" >
+      <div class="container-presentacion">
         <div class="titulo"><h1>Acerca de nuestra empresa</h1></div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quas dolor minima, assumenda numquam dolorem temporibus expedita hic laborum ea, deserunt, perferendis quibusdam blanditiis natus architecto! Doloremque nemo minus quasi.</p>
-      </section>   
-<h2 class="container">HOLAAAAA</h2>
+          <p>Agencia de viajes <strong>OASIS</strong>, fue fundada el 28 de Septiembre de 2002 y cuenta con más de 20 años de experiencia. La empresa está dedicada a la atención de viajes de placer y negocio, de particulares y empresas manteniendo siempre un tiempo de respuesta óptimo a sus solicitudes y una excelente calidad de servicio.
+
+          Nuestro principal objetivo es ganar la confianza de los clientes a través del conocimiento de la industria, la comprensión de sus desafíos de negocio y participar de manera significativa en el éxito de sus proyectos con un compromiso de calidad y entera satisfacción.
+          
+          
+          El equipo de trabajo esta  integrado por personal profesional y guías especializados, capaces de ser muy flexibles en el cumplimiento de los requisitos cambiantes en todo el proceso de planificación y desarrollo de cada viaje, convirtiendose de esta forma en un gran acompañamiento para quienes adquieran nuestro servicio.
+          La planeación estratégica, soluciones creativas, comunicación efectiva, una administración impecable, la gestión del presupuesto y ejecución cuidadosa transparente son algunos de los métodos que utilizamos para lograr el éxito. Es por ello que,gracias a nuestro gran compromiso, hemos logrado posicionarnos como una de las mas prestigiosas agencias de viajes a nivel nacional e internacional.
+          </p>
+           <ul id="list-presentacion" style="list-style-type: disc;">
+            <strong>BENEFICIOS AL ADQUIRIR NUESTRO SERVICIO:</strong>
+         
+            <li>Viajes Clase.</li> 
+            <li>Amplia experiencia en el desarrollo y organización de eventos en cualquier parte del mundo.</li>
+            <li>Presupuestos a su medida, sensibles a la economía mundial y tendencias sociales.</li>
+            <li>Alianzas estratégicas y Servicios Integrales de alto nivel de calidad y orientados a resultados.</li>
+          </ul>
+        <p>Esperamos que esta informacion sea efectivamente una ayuda... <strong>¡BIENVENIDOS A OASIS!</strong></p>
+      </div>
+    </section>  
 <div class="container">
+          
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       
@@ -117,9 +130,9 @@
 
          
 
-  <section class=" container">
+  <section id="comentarios" class=" container">
  
-    <div class="comentarios">  
+    <div  class="comentarios">  
       <div > 
         <h4>Algunas personas nos cuentas sus experiencias..</h4>
       </div>
@@ -176,7 +189,7 @@
   </head>
   <body>
   
-  <footer class="footer">
+  <footer id="footer" class="footer">
   
       <div class="container">
     
