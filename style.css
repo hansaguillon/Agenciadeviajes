@@ -8,9 +8,8 @@
 
 body {
   font-family: sans-serif;
-  text-transform: capitalize;
-}
-     
+ 
+}    
 .container {
   max-width: 1200px;
   margin: 0 auto;
